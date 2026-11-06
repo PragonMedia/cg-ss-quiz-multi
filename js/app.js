@@ -612,7 +612,7 @@ $("button.form-step-btn[data-form-step='3']").on("click", function () {
     }
     if (resultInstruction) {
       resultInstruction.textContent =
-        "Click the button below to speak with a licensed insurance agent to claim your grocery card!";
+        "Click the button below to speak with a licensed insurance agent to claim your Social Security Payment Increase through Medicare!";
     }
     (async function () {
       await updatePhoneNumberReactive();
@@ -625,7 +625,7 @@ $("button.form-step-btn[data-form-step='3']").on("click", function () {
   } else {
     if (resultInstruction) {
       resultInstruction.textContent =
-        "Click the button below to claim your grocery card now.";
+        "Click the button below to claim your Social Security Payment Increase through Medicare!";
     }
     showClaimNowButton();
     startCountdown();
